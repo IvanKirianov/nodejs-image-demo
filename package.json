@@ -1,0 +1,21 @@
+{
+    "name": "nodejs-image-demo",
+    "version": "1.0.0",
+    "description": "nodejs image demo",
+    "author": "Ivan Kirianov<IK@example.com>",
+    "license": "MIT",
+    "main": "app.js",
+    "keywords": [
+      "nodejs",
+      "bootstrap",
+      "express"
+    ],
+    "dependencies": {
+      "express": "^4.16.4",
+      "nodemon": "1.18.10"
+    },
+    "scripts": {
+        "start": "nodemon --inspect=0.0.0.0 app.js",
+        "start:prod": "node app.js"
+      }
+  }
