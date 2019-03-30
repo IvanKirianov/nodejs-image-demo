@@ -1,2 +1,5 @@
-description: A Helm chart for Kubernetes deployment nodejs app
+apiVersion: v1
+version: 0.0.1
+appVersion: 0.0.1
 name: nodejs-image-demo
+description: A Helm chart for Kubernetes deployment nodejs app
